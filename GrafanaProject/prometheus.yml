@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'java_app_metrics'
+    metrics_path: '/grafanaproject/metrics'   # Replace with your actual metrics endpoint path
+    static_configs:
+      - targets: ['app:8080']
