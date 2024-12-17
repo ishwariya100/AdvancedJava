@@ -1,0 +1,33 @@
+
+2024-11-04 23:47:57 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-04 23:52:19 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 03:24:34 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 03:26:43 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 14:20:31 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 14:22:16 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 14:24:40 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 14:28:36 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 14:29:42 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 14:36:01 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 14:38:45 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 15:29:19 INFO  c.d.C.RegistrationController - Inside RegistrationController doPost Method
+2024-11-05 15:29:28 INFO  com.demo.Controller.LoginController - Login attempt for user: u200
+2024-11-05 15:29:28 INFO  com.demo.Controller.LoginController - User u200 successfully logged in.
+2024-11-05 20:07:37 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-05 20:15:29 INFO  c.d.C.RegistrationController - Inside RegistrationController doPost Method
+2024-11-05 20:15:36 INFO  com.demo.Controller.LoginController - Login attempt for user: u500
+2024-11-05 20:15:36 INFO  com.demo.Controller.LoginController - User u500 successfully logged in.
+2024-11-05 20:21:23 INFO  com.demo.Controller.LoginController - Login attempt for user: u500
+2024-11-05 20:21:23 WARN  com.demo.Controller.LoginController - Failed login attempt for user: u500
+2024-11-06 21:38:11 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-06 21:39:50 INFO  c.d.C.RegistrationController - Inside RegistrationController doPost Method
+2024-11-06 21:39:58 INFO  com.demo.Controller.LoginController - Login attempt for user: Ish
+2024-11-06 21:39:58 INFO  com.demo.Controller.LoginController - User Ish successfully logged in.
+2024-11-06 21:40:10 INFO  com.demo.Controller.LoginController - Login attempt for user: Ish
+2024-11-06 21:40:10 WARN  com.demo.Controller.LoginController - Failed login attempt for user: Ish
+2024-11-07 00:36:03 DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2024-11-07 00:39:07 INFO  c.d.C.RegistrationController - Inside RegistrationController doPost Method
+2024-11-07 00:39:13 INFO  com.demo.Controller.LoginController - Login attempt for user: Ish
+2024-11-07 00:39:13 INFO  com.demo.Controller.LoginController - User Ish successfully logged in.
+2024-11-07 00:39:41 INFO  com.demo.Controller.LoginController - Login attempt for user: Ish
+2024-11-07 00:39:41 WARN  com.demo.Controller.LoginController - Failed login attempt for user: Ish

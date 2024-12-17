@@ -1,6 +1,7 @@
 package com.learn.SpringDataJPA.service;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import com.learn.SpringDataJPA.Entities.UserEntity;
@@ -12,7 +13,11 @@ public interface UserService {
 	public List<UserEntity> getAllUsers();
 
 	public Optional<UserEntity> getUserById(int id);
-	
-	public boolean updateUser(int id, UserEntity user);
+
+	public boolean deleteUserById(int id);
+
+	public boolean deleteAllUsers();
+
+	public boolean partialUpdateUser(int id, Map<String, Object> updates);
 
 }

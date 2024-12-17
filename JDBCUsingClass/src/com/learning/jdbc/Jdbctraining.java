@@ -16,7 +16,6 @@ public class Jdbctraining {
 				Statement statement = connection.createStatement();
 				statement.executeUpdate("insert into persons (personId, firstname, lastname) values (2, 'Ish', 'Ganesh')");
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
@@ -26,5 +25,4 @@ public class Jdbctraining {
 		
 		
 	}
-
 }

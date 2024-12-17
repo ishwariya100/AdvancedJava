@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: root      # Set the root password
+      MYSQL_DATABASE: usersDB                     # Database name
+      MYSQL_USER: root                        # Your MySQL username
+      MYSQL_PASSWORD: password                          # Your MySQL password
+    ports:
+      - "3307:3306"                                  # Expose MySQL port
+    volumes:
+      - mysql_data:/var/lib/mysql                    # Persist MySQL data
+      - ./sql:/docker-entrypoint-initdb.d            # Mount SQL scripts directory
+
+  app:
+    build:
+      context: .                                     # Path to your Dockerfile
+      dockerfile: Dockerfile                         # Specify the Dockerfile
+    container_name: java_app_container
+    ports:
+      - "9090:8080"                                  # Expose your app's port
+    environment:
+      JDBC_URL: jdbc:mysql://mysql:3306/usersDB  # JDBC URL for MySQL
+      JDBC_USERNAME: root                  # MySQL username
+      JDBC_PASSWORD: password                      # MySQL password
+    depends_on:
+      - mysql                                           # Wait for MySQL to start
+
+volumes:
+  mysql_data:                                           # Volume to persist MySQL data
